@@ -1,0 +1,18 @@
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp">
+  <Id>87654321-4321-4321-4321-210987654321</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>DeepSeek 写作助手</ProviderName>
+  <DefaultLocale>zh-CN</DefaultLocale>
+  <DisplayName DefaultValue="DeepSeek 写作助手"/>
+  <Description DefaultValue="使用 DeepSeek V4 获取廉价高效的写作建议"/>
+  <Hosts>
+    <Host Name="Document"/>
+    <Host Name="Workbook"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://yourserver.com/deepseek_taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
