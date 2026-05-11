@@ -12,7 +12,7 @@
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://yourserver.com/deepseek_taskpane.html"/>
+    <SourceLocation DefaultValue="https://github.com/j00106461-source/deepseek-word-addon"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
